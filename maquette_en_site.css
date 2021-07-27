@@ -2,7 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
-
 body
 {
     margin:0px 0px 0px 0px;
@@ -11,9 +10,13 @@ body
     font-weight: 500;
 }
 
+
+/* --------------------   ENTETE  -------------------*/
+
 .tête
 {
-    display: flex; 
+    display: flex;
+    flex-direction: row;
     margin-top: 41px;
 }
 
@@ -32,7 +35,7 @@ body
     margin-top: -18px;
 }
 
-.logo , .reservation    
+.logo , .reservation
 {
     margin-left: 50px;
 }
@@ -45,7 +48,13 @@ nav
 {
     margin-left:728px;
 }
-nav a:first-child 
+
+.nav_for_resp
+{
+    display: none;
+}
+
+nav a:first-child
 {
     border-top: 3px  solid #0065FC;
 }
@@ -67,9 +76,12 @@ nav a:hover
 #inscription
 {
     text-decoration: none;
-    color: #0065FC; 
+    color: #0065FC;
     font-weight: bold;
 }
+
+
+/* -----------------  fORM RESEARCH  ---------------------*/
 
 .formsearch
 {
@@ -97,7 +109,7 @@ span i
     border: 1px solid #f2f2f2;
     font-size: 1em;
     font-weight: 900;
-    
+
 }
 
 
@@ -113,6 +125,8 @@ span i
     font-weight: bolds;
     cursor: pointer;
 }
+
+/* ------------------------    LES FILTRES --------------------*/
 
 .filtres
 {
@@ -138,7 +152,8 @@ span i
     transition-duration: 0.1s;
     font-weight: bold;
     margin-left: 20px;
- 
+    transform: scale(1);
+	transition: .3s ease-in-out;
 }
 .economique div , .familial div , .romantique div , .animaux div
 {
@@ -171,10 +186,10 @@ span i
 .economique:hover , .familial:hover , .romantique:hover , .animaux:hover
 {
     background-color: #DEEBFF;
-    font-size:1.1em;
+    transform: scale(0.9);
 }
 
-
+/* -------------------    LES INFORMATIONS DES LOGEMENTS ------------*/
 .info_logement
 {
     display: flex;
@@ -205,127 +220,165 @@ span i
     margin-left: 14px;
 }
 
+/* ----------------------    HEBERGEMENT ------------------------*/
 .sect_hebergement
 {
     width: 93%;
     display: flex;
     margin-top: -20px;
-    
+
+}
+
+.hebergement_div
+{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    border-radius: 10px;
 }
 
 .hebergement
 {
-    flex: 2;
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
     height:auto;
-    background-color: #f2f2f2;
-    border:1px solid;
-    box-shadow: 2px 2px 2px 0px black;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: -30px;
 }
 .hebergement h2
 {
-    margin-left: 10px;
+    margin-left: -374px;
 }
 
-.hebergement_1
+.hebergement_1 , .hebergement_2
 {
     display: flex;
     flex-direction: row;
     width: 750px;
     height: 220px;
-    border: 1px solid #b1adad;
-    margin-bottom: 29px;
-    margin-left: 10px;
-    
+    justify-content: space-between;
+    margin-bottom: 39px;
+    margin-top: 10px;
+    /*border: 1px solid;*/
 }
 
-.hebergement_1 article
+.hebergement_1 article , .hebergement_2 article
 {
     width: 220px;
     border:1px solid white;
     height: 200px;
     border-radius: 15px;
-    margin-left: 0px;
-    margin-right: auto;
+    /*margin-left: 0px;
+    margin-right: auto;*/
     background-color: white;
+    box-shadow: 0 0 16px #0000002e;
 }
-hebergement_1 article
+
+hebergement_1 article , .hebergement_2 article
 {
 	transform: scale(1);
-	transition: .1s ease-in-out;
+	transition: .3s ease-in-out;
 }
 
-.hebergement_1 article:hover
+.hebergement_1 article:hover , .hebergement_2 article:hover
 {
-	transform: scale(1.1);
+	transform: scale(0.9);
 }
 
-.hebergement_1 a
+.hebergement_1 a , .hebergement_2 a
 {
     text-decoration: none;
 }
 
-.img1_heb1 , .img2_heb2 , .img3_heb3
+.img1_heb1 , .img2_heb1 , .img3_heb1 , .img1_heb2 , .img2_heb2 , .img3_heb2
 {
     margin-left: -35px;
     margin-top: -8px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     width: 210px;
-    height: 100px;
+    height: 110px;
 }
 
-.capt1_heb1 , .capt2_heb2 , .capt3_heb3
+.capt1_heb1 , .capt2_heb1 , .capt3_heb1 , .capt1_heb2 , .capt2_heb2 , .capt3_heb2
 {
     margin-top: -13px;
     margin-left: -23px;
     color: black;
 }
 
-.p1_heb1 , .p2_heb2 , .p3_heb3
+.p1_heb1 , .p2_heb1 , .p3_heb1 , .p1_heb2 , .p2_heb2 , .p3_heb2
 {
     margin-top: -11px;
-    margin-left: -23px;
+    margin-left: 15px;
     color: black;
 }
-.icon1_heb1 , .icon2_heb2 , .icon3_heb3
+.icon1_heb1 , .icon2_heb1 , .icon3_heb1 , .icon1_heb2 , .icon2_heb2 , .icon3_heb2
 {
     color: #0065FC;
     margin-left: 18px;
     margin-top: -10px;
 }
-.icon1_heb1 i:nth-child(5) , .icon3_heb3 i:nth-child(5)
+.icon1_heb1 i:nth-child(5) , .icon3_heb1 i:nth-child(5) , .icon1_heb2 i:nth-child(4) , .icon1_heb2 i:nth-child(5) , .icon2_heb2 i:nth-child(5)
 {
     color: #d9d9d9;
 }
 
-
-
-aside
+.more
 {
-    flex: 1;
-    height: 120px;
-    background-color: #f2f2f2;
-    border:1px solid;
-    margin-left:10px;
-    box-shadow: 2px 2px 2px 0px black;
+    color: black;
+    text-decoration: none;
 }
 
-.sect_activites
+.hebergement_div h4
 {
-    width:93%;
-    height: 120px;
-    display: flex;
-    margin-top: 30px;
-    background-color: #f2f2f2;
-    border:1px solid;
-    box-shadow: 2px 2px 2px 0px black;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 0px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------    PIED LA PAGE-----------------------------------------------------------------*/
 footer
 {
     background-color: #f2f2f2;
-    margin-top: 100%;
+    margin-top: 67%;
 }
 .renseignement
 {
@@ -337,16 +390,13 @@ footer
     margin-left:auto;
     margin-right:230px;
     margin-bottom: 90px;
-}  
+}
 
 .renseignement ul
 {
     list-style-type: none;
 }
-
-
-
-.renseignement a 
+.renseignement a
 {
     display: flex;
     text-decoration: none;
@@ -360,4 +410,3 @@ footer
 {
     text-decoration: underline;
 }
-
