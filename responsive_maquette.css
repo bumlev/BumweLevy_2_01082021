@@ -61,6 +61,76 @@
         margin-right: 30px;
     }
 
+    /* ------------------------------   HEBERGEMENT    -------------------------------*/
+    .sect_hebergement
+    {
+        display: flex;
+        width: auto;
+        height: auto;
+        flex-direction: column;
+
+
+    }
+
+    .hebergement_div , .populaire
+    {
+        width: auto;
+        height: auto;
+        margin-top: 12px;
+        margin-bottom: 12px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .populaire
+    {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+    }
+
+    .art1_pop , .art2_pop , .art3_pop
+    {
+        display: flex;
+        width: auto;
+        height: auto;
+        margin-bottom: 12px;
+        margin-top: 10px;
+        transform: scale(1);
+        transition: .3s ease-in-out;
+    }
+
+    .a_art1_pop , .a_art2_pop , .a_art3_pop
+    {
+        display: flex;
+        flex-direction: row;
+        width: 564px;
+        height: 118px;
+        border-radius: 15px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .a_art1_pop div:first-child img , .a_art2_pop div:first-child img , .a_art3_pop div:first-child img
+    {
+        flex: 1;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    .a_art1_pop div:last-child , .a_art2_pop div:last-child , .a_art3_pop div:last-child
+    {
+        flex:2;
+    }
+
+    .populaire h2
+    {
+        margin-left:25px;
+    }
+
+    .populaire i
+    {
+        margin-left: 490px;
+    }
 
 
 }
