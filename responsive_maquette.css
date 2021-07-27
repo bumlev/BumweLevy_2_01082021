@@ -1,0 +1,66 @@
+/**** -------------------- RESPONSIVE DESIGN -----------------*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+@media  screen and (max-width: 1280px) {
+
+    /* -----------------   ENTETE -----------------------------------*/
+    body {
+        width: auto;
+        height: auto;
+    }
+
+    .tête {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+    }
+
+    .reservation {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 87px;
+        height: 45px;
+        margin-top: -18px;
+    }
+
+    .logo, .reservation {
+        margin-left: 50px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+    }
+
+    nav a:first-child {
+        border-top: 3px solid #0065FC;
+    }
+
+    nav a {
+        text-decoration: none;
+        padding: 38px;
+        color: black;
+    }
+
+    nav a:hover {
+        color: #0065FC;
+        border-top: 3px solid #0065FC;
+    }
+
+    #inscription {
+        margin-right: 30px;
+    }
+
+
+
+}
