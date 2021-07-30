@@ -126,7 +126,7 @@
         border-bottom-right-radius: 12px;
         border: none;
         font-size:1.1em;
-        font-weight: bolds;
+        font-weight: bold;
         cursor: pointer;
     }
 
@@ -1088,8 +1088,8 @@
         border-radius: 15px;
         margin-top: 10px;
         margin-bottom: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
         background-color: white;
         box-shadow: 0 0 16px #0000002e;
     }
@@ -1243,7 +1243,7 @@
 }
 
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape)
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape)
 {
 
     /************************-------------------- ENTETE ---------------------------------------*/
@@ -1564,7 +1564,7 @@
 
 }
 
-@media (min-width: 481px) and (max-width: 767px)
+@media screen and (min-width: 481px) and (max-width: 767px)
 {
 
     /************************-------------------- ENTETE ---------------------------------------*/
@@ -1885,31 +1885,33 @@
 }
 
 
-@media (min-width: 320px) and (max-width: 480px)
+@media screen and (min-width: 320px) and (max-width: 480px)
 {
     /************************-------------------- ENTETE ---------------------------------------*/
     body
     {
-        width: auto;
+        width: 100%;
         height: auto;
+
     }
     .tête
     {
-        width: auto;
+        width: 80%;
         height: auto;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        margin-top: 15px;
+        margin-top: 39px;
     }
 
     .reservation
     {
-        width: auto;
+        width: 97%;
         height: auto;
         display: flex;
         flex-direction: column;
+
     }
 
     .logo
@@ -1922,6 +1924,12 @@
     .logo , .reservation
     {
         margin-left: 50px;
+    }
+
+
+    .localisation
+    {
+        width: 70%;
     }
 
     nav
@@ -1943,9 +1951,10 @@
     .nav_for_resp
     {
         display: flex;
+        width: 80%;
         flex-direction: row;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 25%;
+        margin-right: 2%;
     }
 
     .nav_for_resp a:first-child
@@ -1970,8 +1979,19 @@
 
     #inscription
     {
-        margin-right: -50px;
+        margin-left: 55%;
     }
+
+
+    /*------------------------------ FORMULAIRES ---------------------------*/
+
+    .formsearch
+    {
+        display: flex;
+        flex-direction: row;
+        width: 120%;
+    }
+
 
     /**** ------------------------- FILTRES -------------------------------*/
     .filtres
@@ -1996,11 +2016,11 @@
     .sect_hebergement
     {
         display: flex;
-        width: auto;
+        width: 96%;
         height: auto;
-        flex-direction: column;
-
-
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-content: center;
     }
 
 
@@ -2009,29 +2029,14 @@
         display: flex;
         flex-direction: column;
         align-content: space-between;
-        width: auto;
+        width: 100%;
         height: auto;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: auto;
-        margin-right: auto;
-
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 1%;
+        margin-right: 1%;
+        background-color: transparent;
     }
-
-    .populaire
-    {
-        display: flex;
-        flex-direction: column;
-        align-content: space-between;
-        justify-content: center;
-        width: auto;
-        height: auto;
-        margin-top: 8px;
-        margin-bottom: 5px;
-        margin-left: 0;
-        margin-right: 0;
-    }
-
     .hebergement h2
     {
         margin-left: auto;
@@ -2041,44 +2046,78 @@
     {
         display: flex;
         flex-direction: column;
-        width: auto;
+        width: 87%;
         height: auto;
         justify-content: space-between;
         align-items: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
 
     }
 
     .hebergement_1 article, .hebergement_2 article {
-        width: auto;
+
+        display: flex;
+        width: 99%;
         border: 1px solid white;
-        height: auto;
+        height: 20%;
         border-radius: 15px;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        margin-left: 15px;
-        margin-right: 15px;
+        margin-top: 6%;
+        margin-bottom: 6%;
+        margin-left: auto;
+        margin-right: auto;
         background-color: white;
         box-shadow: 0 0 16px #0000002e;
     }
 
 
+
+    .img1_heb1 , .img2_heb1 , .img3_heb1 , .img1_heb2 , .img2_heb2 , .img3_heb2
+    {
+        height: 7rem;
+        object-fit: cover;
+        max-width: 100%;
+        width: 100%;
+        max-height: 100%;
+    }
 
     /*--------------------------------------     POPULAIRE -------------------------------*/
 
-    .sect_activites h2
+    .populaire
     {
-        margin-left: auto;
+        display: flex;
+        flex-direction:column;
+        align-content: space-between;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .populaire h2
+    {
+        display: flex;
+        flex-direction: row;
+        font-size: 84%;
+    }
+
+    .populaire i
+    {
+        float: right;
     }
 
     .art1_pop , .art2_pop , .art3_pop
     {
         display: flex;
-        width: auto;
+        width: 84%;
         height: auto;
-        margin-top: 12px;
-        margin-bottom: 12px;
-        margin-left: 12px;
-        margin-right: 12px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 
@@ -2086,7 +2125,7 @@
 
     .sect_activites
     {
-        width: auto;
+        width: 96%;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -2112,20 +2151,20 @@
     .div_activites_resp
     {
         display: flex;
-        width:auto;
+        width: 96%;
         flex-direction: column;
         align-content: center;
         justify-content: center;
         margin-top: auto;
         margin-bottom: auto;
-        margin-left: auto;
-        margin-right: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .activity_1_resp , .activity_2_resp , .activity_3_resp
     {
         display: flex;
-        width: auto;
+        width: 96%;
         height: auto;
         flex-direction: column;
         justify-content: space-between;
@@ -2139,10 +2178,10 @@
     {
         display: flex;
         flex-direction: column;
-        width: auto;
-        height: auto;
-        margin-top: auto;
-        margin-bottom: auto;
+        width: 96%;
+        height:280px;
+        margin-top: 5%;
+        margin-bottom: 5%;
         margin-right: auto;
         margin-left: auto;
         border-radius: 10px;
@@ -2160,7 +2199,7 @@
 
     .activity_1_resp .img1_act1 , .activity_1_resp .img1_act2 , .activity_2_resp .img2_act3 , .activity_2_resp .img2_act4 , .activity_3_resp .img3_act5 , .activity_3_resp .img3_act6
     {
-        width: 295px;
+        width: 100%;
         height:230px;
         border-radius: 10px;
     }
@@ -2176,7 +2215,7 @@
 
     footer
     {
-        width: 150%;
+        width: 140%;
         background-color: #f2f2f2;
         margin-top: 7%;
     }
@@ -2194,10 +2233,9 @@
         flex-direction: column;
         width: 180px;
         height: auto;
-        margin-left: auto;
-        margin-right:auto;
         margin-bottom: auto;
-        align-items: flex-start;
+        margin-left: 18%;
+        justify-content: flex-start;
     }
 
 
