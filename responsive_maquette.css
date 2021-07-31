@@ -1989,7 +1989,7 @@
     {
         display: flex;
         flex-direction: row;
-        width: 120%;
+        width: 90%;
     }
 
 
@@ -2055,7 +2055,8 @@
 
     }
 
-    .hebergement_1 article, .hebergement_2 article {
+    .hebergement_1 article, .hebergement_2 article
+    {
 
         display: flex;
         width: 99%;
@@ -2071,16 +2072,21 @@
     }
 
 
+    .img1_heb1 , .img2_heb1 , .img3_heb1 , .img1_heb2 , .img2_heb2 , .img3_heb2
+    {
+        width: 290px;
+    }
 
     .img1_heb1 , .img2_heb1 , .img3_heb1 , .img1_heb2 , .img2_heb2 , .img3_heb2
     {
-        height: 7rem;
-        object-fit: cover;
-        max-width: 100%;
-        width: 100%;
-        max-height: 100%;
+        background-size: 100% 100%;
+
     }
 
+    .hebergement_1 figure, .hebergement_2 figure
+    {
+
+    }
     /*--------------------------------------     POPULAIRE -------------------------------*/
 
     .populaire

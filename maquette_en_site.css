@@ -32,7 +32,7 @@ body
 {
     width: 87px;
     height: 45px;
-    margin-top: -18px;
+    margin-top: -17px;
 }
 
 .logo , .reservation
@@ -276,7 +276,7 @@ span i
     box-shadow: 0 0 16px #0000002e;
 }
 
-hebergement_1 article , .hebergement_2 article
+.hebergement_1 article , .hebergement_2 article
 {
 	transform: scale(1);
 	transition: .3s ease-in-out;
@@ -632,8 +632,8 @@ footer
 
 .renseignement div
 {
-    margin-left:auto;
-    margin-right:230px;
+    margin-left:200px;
+    margin-right:220px;
     margin-bottom: 90px;
 }
 
