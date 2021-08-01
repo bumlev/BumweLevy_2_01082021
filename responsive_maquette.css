@@ -928,7 +928,7 @@
     /************************-------------------- ENTETE ---------------------------------------*/
     body
     {
-        width: auto;
+        width: 100%;
         height: auto;
     }
     .tête
@@ -944,7 +944,7 @@
 
     .reservation
     {
-        width: auto;
+        width: 97%;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -1025,18 +1025,22 @@
     .info_logement
     {
         display: flex;
-        width: auto;
+        width: 90%;
         height: auto;
         margin-top: 30px;
         margin-bottom: 30px;
+        margin-right: 4%;
+        margin-left: 4%;
     }
     /*----------------------------------    HEBERGEMENT ---------------------------------------------------------*/
     .sect_hebergement
     {
         display: flex;
-        width: auto;
+        width: 96%;
         height: auto;
         flex-direction: column;
+        align-content: center;
+        justify-content: center;
 
 
     }
@@ -1047,12 +1051,24 @@
         display: flex;
         flex-direction: column;
         align-content: space-between;
-        width: auto;
+        width: 96%;
         height: auto;
         margin-top: 12px;
         margin-bottom: 12px;
         margin-left: 12px;
         margin-right: 12px;
+    }
+
+    .hebergement
+    {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        width: 96%;
+        height: auto;
+        margin-top: 12px;
+        margin-bottom: 12px;
+        justify-content: space-around;
     }
 
     .populaire
@@ -1061,20 +1077,22 @@
         flex-direction: column;
         align-content: space-between;
         justify-content: center;
-        width: auto;
+        width: 96%;
         height: auto;
+        margin-left: 12px;
+        margin-right: 12px;
     }
 
-    .hebergement h2
+    .hebergement_div h2
     {
-        margin-left: auto;
+        margin-left: 5%;
     }
 
     .hebergement_1 , .hebergement_2
     {
         display: flex;
         flex-direction: column;
-        width: auto;
+        width: 93%;
         height: auto;
         justify-content: space-between;
         align-items: center;
@@ -1082,7 +1100,7 @@
     }
 
     .hebergement_1 article, .hebergement_2 article {
-        width: auto;
+        width: 60%;
         border: 1px solid white;
         height: auto;
         border-radius: 15px;
@@ -1095,359 +1113,129 @@
     }
 
 
+    .hebergement_1 a , .hebergement_2 a
+    {
+        width: 98%;
+    }
+
+    .hebergement_1 figure , .hebergement_2 figure
+    {
+        width:97%;
+    }
+
+    .img1_heb1
+    {
+        width: 100%;
+    }
+    .img2_heb1
+    {
+        width: 100%;
+    }
+    .img3_heb1
+    {
+        width: 100%;
+    }
+
+    .img1_heb2
+    {
+        width: 100%;
+    }
+
+    .img2_heb2
+    {
+        width: 100%;
+    }
+
+    .img3_heb2
+    {
+        width: 100%;
+    }
+
     .art1_pop , .art2_pop , .art3_pop
     {
         display: flex;
-        width: auto;
+        width: 96%;
         height: auto;
         margin-top: 12px;
         margin-bottom: 12px;
-        margin-left: 12px;
-        margin-right: 12px;
+        margin-left: 2%;
+        margin-right: 2%;
     }
 
 
-    /* -----------------ACTIVITIES-------------------------*/
-
-    .sect_activites
-    {
-        width: auto;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .sect_activites h2
-    {
-        margin-top: 15px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 20px;
-    }
-
-    .div_activites
-    {
-        display: none;
-    }
-
-    .div_activites_resp
-    {
-        display: flex;
-        width:auto;
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .activity_1_resp , .activity_2_resp , .activity_3_resp
-    {
-        display: flex;
-        width: auto;
-        height: auto;
-        flex-direction: column;
-        justify-content: space-between;
-
-
-    }
-
-
-
-    .activity_1_resp .activity_1 , .activity_1_resp .activity_2 , .activity_2_resp .activity_3 , .activity_2_resp .activity_4 , .activity_3_resp .activity_5 , .activity_3_resp .activity_6
-    {
-        display: flex;
-        flex-direction: column;
-        width: auto;
-        height: auto;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-right: auto;
-        margin-left: auto;
-        border-radius: 10px;
-        color: black;
-        text-decoration: none;
-        box-shadow: 0 0 16px #0000002e;
-        transform: scale(1);
-        transition: .3s ease-in-out;
-    }
-
-    .activity_1_resp .activity_1:hover , .activity_1_resp .activity_2:hover , .activity_2_resp .activity_3:hover , .activity_2_resp .activity_4:hover , .activity_3_resp .activity_5:hover , .activity_3_resp .activity_6:hover
+    .art1_pop:hover , .art2_pop:hover , .art3_pop:hover
     {
         transform: scale(0.9);
     }
-
-    .activity_1_resp .img1_act1 , .activity_1_resp .img1_act2 , .activity_2_resp .img2_act3 , .activity_2_resp .img2_act4 , .activity_3_resp .img3_act5 , .activity_3_resp .img3_act6
-    {
-        width: 345px;
-        height:230px;
-        border-radius: 10px;
-    }
-
-    .activity_1_resp h3, .activity_2_resp h3, .activity_3_resp h3
-    {
-        margin-left: 25px;
-        margin-top:10px;
-    }
-
-    /******** -----------------------------------------   PIED DE LA PAGE ---------------------------------------------*/
-
-
-    footer
-    {
-        background-color: #f2f2f2;
-        margin-top: 7%;
-    }
-    .renseignement
-    {
-        width: auto;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .renseignement div
-    {
-        display: flex;
-        flex-direction: column;
-        width: 180px;
-        height: auto;
-        margin-left: auto;
-        margin-right:auto;
-        margin-bottom: auto;
-        align-items: flex-start;
-    }
-
-
-    .renseignement a
-    {
-        display: flex;
-        text-decoration: none;
-        color: black;
-        font-size: 1.1em;
-        flex-direction: column;
-        padding-bottom: 10px;
-
-    }
-    .renseignement a:hover
-    {
-        text-decoration: underline;
-    }
-
-}
-
-
-@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape)
-{
-
-    /************************-------------------- ENTETE ---------------------------------------*/
-    body
-    {
-        width: auto;
-        height: auto;
-    }
-    .tête
-    {
-        width: auto;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        margin-top: 15px;
-    }
-
-    .reservation
-    {
-        width: auto;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .logo
-    {
-        width: 87px;
-        height: 45px;
-        margin-top: -18px;
-    }
-
-    .logo , .reservation
-    {
-        margin-left: 50px;
-    }
-
-    nav
-    {
-        display: none;
-
-    }
-
-    nav a:first-child
-    {
-        border-top: none;
-    }
-    nav a:hover
-    {
-        color: #0065FC;
-        border-top: none;
-    }
-
-    .nav_for_resp
+    .a_art1_pop , .a_art2_pop , .a_art3_pop
     {
         display: flex;
         flex-direction: row;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .nav_for_resp a:first-child
-    {
-        border-bottom: 3px  solid #0065FC;
-    }
-
-    .nav_for_resp a
-    {
-        text-decoration: none;
-        padding: 38px;
-        color: black;
-        margin-right: auto;
-        margin-left: auto;
-    }
-
-    .nav_for_resp a:hover
-    {
-        color: #0065FC;
-        border-bottom: 3px solid #0065FC;
-    }
-
-    #inscription
-    {
-        margin-right: 30px;
-    }
-
-    /**** ------------------------- FILTRES -------------------------------*/
-    .filtres
-    {
-        display: flex;
-        flex-direction: column;
-        margin-top:  30px;
-        width: 280px;
-        height: auto;
-        justify-content: center;
-    }
-    /*** --------------- info logement --------------------------------*/
-    .info_logement
-    {
-        display: flex;
-        width: auto;
-        height: auto;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-    /*----------------------------------    HEBERGEMENT ---------------------------------------------------------*/
-    .sect_hebergement
-    {
-        display: flex;
-        width: auto;
-        height: auto;
-        flex-direction: column;
-
-
-    }
-
-
-    .hebergement_div
-    {
-        display: flex;
-        flex-direction: column;
-        align-content: space-between;
-        width: auto;
-        height: auto;
-        margin-top: 12px;
-        margin-bottom: 12px;
-        margin-left: 12px;
-        margin-right: 12px;
-    }
-
-    .populaire
-    {
-        display: flex;
-        flex-direction: column;
-        align-content: space-between;
-        justify-content: center;
-        width: auto;
-        height: auto;
-    }
-
-    .hebergement h2
-    {
-        margin-left: auto;
-    }
-
-    .hebergement_1 , .hebergement_2
-    {
-        display: flex;
-        flex-direction: column;
-        width: auto;
-        height: auto;
-        justify-content: space-between;
-        align-items: center;
-
-    }
-
-    .hebergement_1 article, .hebergement_2 article {
-        width: auto;
-        border: 1px solid white;
+        width: 98%;
         height: auto;
         border-radius: 15px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
-        background-color: white;
-        box-shadow: 0 0 16px #0000002e;
+        text-decoration: none;
+        color: black;
+    }
+
+    .a_art1_pop div:first-child img , .a_art2_pop div:first-child img , .a_art3_pop div:first-child img
+    {
+        width: 170px;
+        height: 118px;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    .a_art1_pop div:last-child , .a_art2_pop div:last-child , .a_art3_pop div:last-child
+    {
+        flex:1;
+    }
+    .a_art1_pop p , .a_art2_pop p , .a_art3_pop p
+    {
+        margin-top:-15px;
+        margin-left: 11px;
+    }
+    .a_art1_pop h3 , .a_art2_pop h3 , .a_art3_pop h3
+    {
+        margin-top:9px;
+        margin-left: 11px;
     }
 
 
-    .art1_pop , .art2_pop , .art3_pop
+    .a_art1_pop div:last-child div , .a_art2_pop div:last-child div , .a_art3_pop div:last-child div
     {
         display: flex;
-        width: auto;
-        height: auto;
-        margin-top: 12px;
-        margin-bottom: 12px;
-        margin-left: 12px;
-        margin-right: 12px;
+        flex-direction: row;
     }
 
+
+    .a_art1_pop div:last-child i , .a_art3_pop div:last-child i
+    {
+        color: #0065FC;
+        margin-top: 30px;
+        margin-left: 3px;
+    }
+    .a_art2_pop div:last-child i
+    {
+        color: #0065FC;
+        margin-top: 13px;
+        margin-left: 3px;
+    }
 
     /* -----------------ACTIVITIES-------------------------*/
 
     .sect_activites
     {
-        width: auto;
+        width: 96%;
         height: auto;
         display: flex;
         flex-direction: column;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: auto;
-        margin-right: auto;
+        margin-top: 30px;
     }
 
     .sect_activites h2
     {
-        margin-top: 15px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 20px;
+        margin-top: 12px;
+        margin-left: 10px;
     }
 
     .div_activites
@@ -1458,45 +1246,39 @@
     .div_activites_resp
     {
         display: flex;
-        width:auto;
+        width:96%;
+        height: auto;;
         flex-direction: column;
-        align-content: center;
-        justify-content: center;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: auto;
-        margin-right: auto;
+        align-content: space-between;
+        margin-top: 30px;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .activity_1_resp , .activity_2_resp , .activity_3_resp
     {
         display: flex;
-        width: auto;
+        width: 95%;
         height: auto;
-        flex-direction: column;
-        justify-content: space-between;
-
+        flex-direction: row;
+        justify-content: center;
 
     }
 
-
-
     .activity_1_resp .activity_1 , .activity_1_resp .activity_2 , .activity_2_resp .activity_3 , .activity_2_resp .activity_4 , .activity_3_resp .activity_5 , .activity_3_resp .activity_6
     {
-        display: flex;
-        flex-direction: column;
-        width: auto;
+        width: 94%;
         height: auto;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-right: auto;
-        margin-left: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
         border-radius: 10px;
         color: black;
         text-decoration: none;
         box-shadow: 0 0 16px #0000002e;
         transform: scale(1);
         transition: .3s ease-in-out;
+        margin-left: 1%;
+        margin-right: 1%;
     }
 
     .activity_1_resp .activity_1:hover , .activity_1_resp .activity_2:hover , .activity_2_resp .activity_3:hover , .activity_2_resp .activity_4:hover , .activity_3_resp .activity_5:hover , .activity_3_resp .activity_6:hover
@@ -1506,7 +1288,7 @@
 
     .activity_1_resp .img1_act1 , .activity_1_resp .img1_act2 , .activity_2_resp .img2_act3 , .activity_2_resp .img2_act4 , .activity_3_resp .img3_act5 , .activity_3_resp .img3_act6
     {
-        width: 345px;
+        width: 100%;
         height:230px;
         border-radius: 10px;
     }
@@ -1517,11 +1299,13 @@
         margin-top:10px;
     }
 
+
     /******** -----------------------------------------   PIED DE LA PAGE ---------------------------------------------*/
 
 
     footer
     {
+        width: 110%;
         background-color: #f2f2f2;
         margin-top: 7%;
     }
@@ -1530,7 +1314,7 @@
         width: auto;
         height: auto;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .renseignement div
@@ -1539,8 +1323,8 @@
         flex-direction: column;
         width: 180px;
         height: auto;
-        margin-left: auto;
-        margin-right:auto;
+        margin-left: 7%;
+        margin-right:5%;
         margin-bottom: auto;
         align-items: flex-start;
     }
@@ -1561,32 +1345,33 @@
         text-decoration: underline;
     }
 
-
 }
+
 
 @media screen and (min-width: 481px) and (max-width: 767px)
 {
 
-    /************************-------------------- ENTETE ---------------------------------------*/
+    /* -------------------- ENTETE --------------------------------------- */
+
     body
     {
-        width: auto;
+        width: 100%;
         height: auto;
     }
     .tête
     {
-        width: auto;
+        width: 95%;
         height: auto;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        margin-top: 15px;
+        margin-top: 35px;
     }
 
     .reservation
     {
-        width: auto;
+        width: 97%;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -1654,6 +1439,8 @@
     }
 
     /**** ------------------------- FILTRES -------------------------------*/
+
+
     .filtres
     {
         display: flex;
@@ -1663,7 +1450,10 @@
         height: auto;
         justify-content: center;
     }
+
     /*** --------------- info logement --------------------------------*/
+
+
     .info_logement
     {
         display: flex;
@@ -1673,13 +1463,16 @@
         margin-bottom: 30px;
     }
     /*----------------------------------    HEBERGEMENT ---------------------------------------------------------*/
+
+
     .sect_hebergement
     {
         display: flex;
-        width: auto;
+        width: 96%;
         height: auto;
-        flex-direction: column;
-
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-content: center;
 
     }
 
@@ -1689,22 +1482,36 @@
         display: flex;
         flex-direction: column;
         align-content: space-between;
-        width: auto;
+        width: 100%;
         height: auto;
-        margin-top: 12px;
-        margin-bottom: 12px;
-        margin-left: 12px;
-        margin-right: 12px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 0;
+        margin-right: 0;
     }
 
+    .hebergement_div h2
+    {
+        margin-left: 10%;
+    }
+
+    .hebergement_div h4
+    {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
     .populaire
     {
         display: flex;
         flex-direction: column;
         align-content: space-between;
         justify-content: center;
-        width: auto;
+        width: 100%;
         height: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .hebergement h2
@@ -1716,36 +1523,183 @@
     {
         display: flex;
         flex-direction: column;
-        width: auto;
+        width: 87%;
         height: auto;
         justify-content: space-between;
         align-items: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
 
     }
 
-    .hebergement_1 article, .hebergement_2 article {
-        width: auto;
+    .hebergement_1 article, .hebergement_2 article
+    {
+        display: flex;
+        width: 98%;
         border: 1px solid white;
-        height: auto;
+        height: 30%;
         border-radius: 15px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        margin-left: auto;
+        margin-right: auto;
         background-color: white;
         box-shadow: 0 0 16px #0000002e;
+
+    }
+
+
+    .hebergement_1 a:nth-child(1) , .hebergement_1 a:nth-child(2) , .hebergement_1 a:nth-child(3)
+    {
+        width: 97%;
+        height: 30%;
+    }
+
+    .hebergement_2 a:nth-child(4)
+    {
+        width: 97%;
+        height: 30%;
+    }
+
+    .hebergement_2 a:nth-child(5)
+    {
+        width: 97%;
+        height: 30%;
+    }
+
+    .hebergement_2 a:nth-child(6)
+    {
+        width: 97%;
+        height: 20%;
+    }
+
+    .hebergement_1 figure:nth-child(1) , .hebergement_1 figure:nth-child(2) , hebergement_1 figure:nth-child(3)
+    {
+        width:96%;
+        height: 28%;
+    }
+
+    .hebergement_2 figure:nth-child(5)
+    {
+        width:96%;
+        height: 18%;
+    }
+
+    .hebergement_2 figure:nth-child(4)
+    {
+        width:96%;
+        height: 20%;
+    }
+
+   .hebergement_2 figure:nth-child(6)
+    {
+        width:96%;
+        height: 15%;
+    }
+
+    .img1_heb1
+    {
+        width: 105%;
+        height: 25%;
+    }
+    .img2_heb1
+    {
+        width: 105%;
+        height: 25%;
+    }
+    .img3_heb1
+    {
+        width: 105%;
+        height: 25%;
+    }
+
+    .img1_heb2
+    {
+        width: 420px;
+        height: 280px;
+    }
+
+    .img2_heb2
+    {
+        width: 420px;
+        height: 280px;
+    }
+
+    .img3_heb2
+    {
+        width: 420px;
+        height: 280px;
     }
 
 
     .art1_pop , .art2_pop , .art3_pop
     {
         display: flex;
-        width: auto;
+        width: 96%;
         height: auto;
         margin-top: 12px;
         margin-bottom: 12px;
-        margin-left: 12px;
-        margin-right: 12px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+
+    .art1_pop:hover , .art2_pop:hover , .art3_pop:hover
+    {
+        transform: scale(0.9);
+    }
+    .a_art1_pop , .a_art2_pop , .a_art3_pop
+    {
+        display: flex;
+        flex-direction: row;
+        width: 98%;
+        height: auto;
+        border-radius: 15px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .a_art1_pop div:first-child img , .a_art2_pop div:first-child img , .a_art3_pop div:first-child img
+    {
+        width: 170px;
+        height: 118px;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    .a_art1_pop div:last-child , .a_art2_pop div:last-child , .a_art3_pop div:last-child
+    {
+        flex:1;
+    }
+    .a_art1_pop p , .a_art2_pop p , .a_art3_pop p
+    {
+        margin-top:-15px;
+        margin-left: 11px;
+    }
+    .a_art1_pop h3 , .a_art2_pop h3 , .a_art3_pop h3
+    {
+        margin-top:9px;
+        margin-left: 11px;
+    }
+
+
+    .a_art1_pop div:last-child div , .a_art2_pop div:last-child div , .a_art3_pop div:last-child div
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .a_art1_pop div:last-child i , .a_art3_pop div:last-child i
+    {
+        color: #0065FC;
+        margin-top: 30px;
+        margin-left: 3px;
+    }
+    .a_art2_pop div:last-child i
+    {
+        color: #0065FC;
+        margin-top: 13px;
+        margin-left: 3px;
     }
 
 
@@ -1753,12 +1707,12 @@
 
     .sect_activites
     {
-        width: auto;
+        width: 100%;
         height: auto;
         display: flex;
         flex-direction: column;
         margin-top: auto;
-        margin-bottom: auto;
+        margin-bottom: 2px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -1779,24 +1733,24 @@
     .div_activites_resp
     {
         display: flex;
-        width:auto;
+        width: 100%;
         flex-direction: column;
         align-content: center;
         justify-content: center;
         margin-top: auto;
         margin-bottom: auto;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .activity_1_resp , .activity_2_resp , .activity_3_resp
     {
         display: flex;
-        width: auto;
+        width: 98%;
         height: auto;
         flex-direction: column;
         justify-content: space-between;
-
+        margin-right: 18%;
 
     }
 
@@ -1806,11 +1760,11 @@
     {
         display: flex;
         flex-direction: column;
-        width: auto;
+        width: 82%;
         height: auto;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-right: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-right: 15%;
         margin-left: auto;
         border-radius: 10px;
         color: black;
@@ -1827,7 +1781,7 @@
 
     .activity_1_resp .img1_act1 , .activity_1_resp .img1_act2 , .activity_2_resp .img2_act3 , .activity_2_resp .img2_act4 , .activity_3_resp .img3_act5 , .activity_3_resp .img3_act6
     {
-        width: 345px;
+        width: 422px;
         height:230px;
         border-radius: 10px;
     }
@@ -1843,6 +1797,7 @@
 
     footer
     {
+        width: 110%;
         background-color: #f2f2f2;
         margin-top: 7%;
     }
@@ -1858,9 +1813,9 @@
     {
         display: flex;
         flex-direction: column;
-        width: 180px;
+        width: 60%;
         height: auto;
-        margin-left: auto;
+        margin-left: 16%;
         margin-right:auto;
         margin-bottom: auto;
         align-items: flex-start;
@@ -1884,10 +1839,10 @@
 
 }
 
-
-@media screen and (min-width: 320px) and (max-width: 480px)
+@media  screen and (min-width: 320px) and (max-width: 480px)
 {
-    /************************-------------------- ENTETE ---------------------------------------*/
+    /* -------------------- ENTETE ---------------------------------------*/
+
     body
     {
         width: 100%;
@@ -1896,7 +1851,7 @@
     }
     .tête
     {
-        width: 80%;
+        width: 85%;
         height: auto;
         display: flex;
         flex-direction: row;
@@ -1989,7 +1944,7 @@
     {
         display: flex;
         flex-direction: row;
-        width: 90%;
+        width: 100%;
     }
 
 
@@ -2001,8 +1956,69 @@
         margin-top:  30px;
         width: 280px;
         height: auto;
-        justify-content: center;
     }
+
+    .econo_fami_resp
+    {
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+    }
+
+    .economique , .familial
+    {
+        display: none;
+    }
+
+    .economique_resp , .familial_resp
+    {
+        display: flex;
+        align-items: center;
+        border: 1px solid #d9d9d9;
+        border-radius: 2rem;
+        margin-bottom: 1rem;
+        transition-duration: 0.1s;
+        font-weight: bold;
+        margin-left: 20px;
+        transform: scale(1);
+        transition: .3s ease-in-out;
+    }
+
+    .economique_resp div , .familial_resp div
+    {
+        background-color: #DEEBFF;
+        border-top-left-radius: 100%;
+        border-top-right-radius: 100%;
+        border-bottom-right-radius: 100%;
+        border-bottom-left-radius: 100%;
+        height: 3rem;
+        width: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: -2px;
+    }
+
+    .economique_resp div i , .familial_resp div i
+    {
+        cursor: pointer;
+        display: inline-block;
+        color: blue;
+    }
+
+    .economique_resp span , .familial_resp span
+    {
+        cursor: pointer;
+        margin-left: 12px;
+        padding-right: 12px;
+    }
+    .economique_resp:hover , .familial_resp:hover
+    {
+        background-color: #DEEBFF;
+        transform: scale(0.9);
+    }
+
+
     /*** --------------- info logement --------------------------------*/
     .info_logement
     {
@@ -2037,9 +2053,17 @@
         margin-right: 1%;
         background-color: transparent;
     }
-    .hebergement h2
+
+
+    .hebergement_div h2
     {
-        margin-left: auto;
+        margin-left: 10%;
+    }
+
+    .hebergement_div h4
+    {
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
 
     .hebergement_1 , .hebergement_2
@@ -2071,22 +2095,44 @@
         box-shadow: 0 0 16px #0000002e;
     }
 
-
-    .img1_heb1 , .img2_heb1 , .img3_heb1 , .img1_heb2 , .img2_heb2 , .img3_heb2
+    .hebergement_1 a , .hebergement_2 a
     {
-        width: 290px;
+        width: 98%;
     }
 
-    .img1_heb1 , .img2_heb1 , .img3_heb1 , .img1_heb2 , .img2_heb2 , .img3_heb2
+    .hebergement_1 figure , .hebergement_2 figure
     {
-        background-size: 100% 100%;
-
+        width:97%;
     }
 
-    .hebergement_1 figure, .hebergement_2 figure
+    .img1_heb1
     {
-
+       width: 102%;
     }
+    .img2_heb1
+    {
+        width: 102%;
+    }
+    .img3_heb1
+    {
+        width: 102%;
+    }
+
+    .img1_heb2
+    {
+        width: 102%;
+    }
+
+    .img2_heb2
+    {
+        width: 102%;
+    }
+
+    .img3_heb2
+    {
+        width: 102%;
+    }
+
     /*--------------------------------------     POPULAIRE -------------------------------*/
 
     .populaire
@@ -2126,6 +2172,19 @@
         margin-right: auto;
     }
 
+    .a_art1_pop div:last-child i , .a_art3_pop div:last-child i
+    {
+        color: #0065FC;
+        margin-top: 3%;
+        margin-left: 3%;
+    }
+    .a_art2_pop div:last-child i
+    {
+        color: #0065FC;
+        margin-top: 1%;
+        margin-left: 1%;
+    }
+
 
     /* -----------------ACTIVITIES-------------------------*/
 
@@ -2136,7 +2195,7 @@
         display: flex;
         flex-direction: column;
         margin-top: auto;
-        margin-bottom: auto;
+        margin-bottom: 2px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -2185,9 +2244,9 @@
         display: flex;
         flex-direction: column;
         width: 96%;
-        height:280px;
-        margin-top: 5%;
-        margin-bottom: 5%;
+        height:200px;
+        margin-top: 8%;
+        margin-bottom: 10%;
         margin-right: auto;
         margin-left: auto;
         border-radius: 10px;
@@ -2206,7 +2265,7 @@
     .activity_1_resp .img1_act1 , .activity_1_resp .img1_act2 , .activity_2_resp .img2_act3 , .activity_2_resp .img2_act4 , .activity_3_resp .img3_act5 , .activity_3_resp .img3_act6
     {
         width: 100%;
-        height:230px;
+        height:150px;
         border-radius: 10px;
     }
 
@@ -2261,3 +2320,4 @@
     }
 
 }
+

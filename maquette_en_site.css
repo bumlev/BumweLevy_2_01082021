@@ -142,6 +142,11 @@ span i
     align-items: center;
 }
 
+.econo_fami_resp
+{
+    display: none;
+}
+
 .economique , .familial , .romantique , .animaux
 {
     display: flex;
@@ -153,7 +158,7 @@ span i
     font-weight: bold;
     margin-left: 20px;
     transform: scale(1);
-	transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
 }
 .economique div , .familial div , .romantique div , .animaux div
 {
@@ -247,9 +252,9 @@ span i
     align-items: center;
     margin-bottom: -30px;
 }
-.hebergement h2
+.hebergement_div h2
 {
-    margin-left: -374px;
+    margin-left: 30px;
 }
 
 .hebergement_1 , .hebergement_2
@@ -261,7 +266,6 @@ span i
     justify-content: space-between;
     margin-bottom: 39px;
     margin-top: 10px;
-    /*border: 1px solid;*/
 }
 
 .hebergement_1 article , .hebergement_2 article
@@ -270,21 +274,19 @@ span i
     border:1px solid white;
     height: 200px;
     border-radius: 15px;
-    /*margin-left: 0px;
-    margin-right: auto;*/
     background-color: white;
     box-shadow: 0 0 16px #0000002e;
 }
 
 .hebergement_1 article , .hebergement_2 article
 {
-	transform: scale(1);
-	transition: .3s ease-in-out;
+    transform: scale(1);
+    transition: .3s ease-in-out;
 }
 
 .hebergement_1 article:hover , .hebergement_2 article:hover
 {
-	transform: scale(0.9);
+    transform: scale(0.9);
 }
 
 .hebergement_1 a , .hebergement_2 a
@@ -501,12 +503,6 @@ span i
     transform: scale(1);
     transition: .3s ease-in-out;
 }
-
-
-
-
-
-
 .activity_1 h3, .activity_2 h3, .activity_3 h3, .activity_4 h3
 {
     margin-left: 25px;
