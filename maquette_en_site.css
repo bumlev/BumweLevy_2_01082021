@@ -4,7 +4,8 @@
 
 body
 {
-    margin:0px 0px 0px 0px;
+    max-width:1350px;
+    margin: auto;
     font-family: "Raleway", "sans-serif" ;
     font-size: 14px;
     font-weight: 500;
@@ -15,17 +16,24 @@ body
 
 .tête
 {
+    width: 1250px;
+    height: 80px;
     display: flex;
     flex-direction: row;
     margin-top: 41px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .reservation
 {
-    display: block;
-    width: 95%;
-    height: 800px;
-    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 1250px;
+    height: auto;
+    margin-top: -35px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .logo
@@ -35,18 +43,14 @@ body
     margin-top: -17px;
 }
 
-.logo , .reservation
-{
-    margin-left: 50px;
-}
 .localisation p
 {
     font-size: 1.1em;
-    margin-top: -16px;
+    margin-top: -10px;
 }
 nav
 {
-    margin-left:728px;
+    margin-left:auto;
 }
 
 .nav_for_resp
@@ -200,7 +204,8 @@ span i
     display: flex;
     width: 70%;
     height: 80px;
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .info_logement div
@@ -228,7 +233,8 @@ span i
 /* ----------------------    HEBERGEMENT ------------------------*/
 .sect_hebergement
 {
-    width: 93%;
+    width: auto;
+    height: auto;
     display: flex;
     margin-top: -20px;
 
@@ -302,6 +308,7 @@ span i
     border-top-left-radius: 15px;
     width: 210px;
     height: 110px;
+    object-fit: cover;
 }
 
 .capt1_heb1 , .capt2_heb1 , .capt3_heb1 , .capt1_heb2 , .capt2_heb2 , .capt3_heb2
@@ -357,7 +364,7 @@ span i
 
 .populaire h2
 {
-    margin-left: auto;
+    margin-left: 20px;
     margin-right: auto;
 }
 
@@ -402,6 +409,7 @@ span i
     height: 118px;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
+    object-fit: cover;
 }
 .a_art1_pop div:last-child , .a_art2_pop div:last-child , .a_art3_pop div:last-child
 {
@@ -443,7 +451,7 @@ span i
 
 .sect_activites
 {
-    width:96.8%;
+    width:auto;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -457,7 +465,7 @@ span i
 
 .div_activites
 {
-    width:95.9%;
+    width:auto;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -472,7 +480,7 @@ span i
 
 .activity_1 , .activity_3
 {
-    width: 275px;
+    width: 295px;
     height:540px;
     display: flex;
     flex-direction: column;
@@ -487,10 +495,18 @@ span i
     box-shadow: 0 0 16px #0000002e;
 }
 
+.img1_act1
+{
+    width: 295px;
+    height:490px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
 
 .activity_2 , .activity_4
 {
-    width: 275px;
+    width: 295px;
     height:540px;
     display: flex;
     flex-direction: column;
@@ -509,17 +525,9 @@ span i
     margin-top:10px;
 }
 
-.img1_act1
-{
-    width: 275px;
-    height:490px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
 .activity_2 a:first-child
 {
-    width: 275px;
+    width: 295px;
     height: 280px;
     color: black;
     text-decoration: none;
@@ -531,7 +539,7 @@ span i
 
 .activity_2 a:last-child
 {
-    width: 275px;
+    width: 295px;
     height: 230px;
     color: black;
     text-decoration: none;
@@ -540,33 +548,37 @@ span i
     transition: .3s ease-in-out;
     box-shadow: 0 0 16px #0000002e;
 }
+
 .img1_act2
 {
-    width: 275px;
+    width: 295px;
     height:229px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    object-fit: cover;
 }
 
 .img1_act21
 {
-    width: 275px;
+    width: 295px;
     height:181px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    object-fit: cover;
 }
 
 .img1_act3
 {
-    width: 275px;
+    width: 295px;
     height:490px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    object-fit: cover;
 }
 
 .activity_4 a:first-child
 {
-    width: 275px;
+    width: 295px;
     height: 230px;
     color: black;
     text-decoration: none;
@@ -578,7 +590,7 @@ span i
 
 .activity_4 a:last-child
 {
-    width: 275px;
+    width: 295px;
     height: 280px;
     color: black;
     text-decoration: none;
@@ -590,18 +602,20 @@ span i
 
 .img1_act4
 {
-    width: 275px;
+    width: 295px;
     height:181px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    object-fit: cover;
 }
 
 .img1_act41
 {
-    width: 275px;
+    width: 295px;
     height:229px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    object-fit: cover;
 }
 
 .activity_1:hover , .activity_3:hover
@@ -618,8 +632,9 @@ span i
 /* -------------------------------    PIED LA PAGE-----------------------------------------------------------------*/
 footer
 {
+    width: auto;
     background-color: #f2f2f2;
-    margin-top: 67%;
+    margin-top: 7%;
 }
 .renseignement
 {
@@ -628,9 +643,10 @@ footer
 
 .renseignement div
 {
-    margin-left:200px;
-    margin-right:220px;
-    margin-bottom: 90px;
+    margin-left:45px;
+    margin-right:170px;
+    margin-bottom: 50px;
+    margin-top: 20px;
 }
 
 .renseignement ul
