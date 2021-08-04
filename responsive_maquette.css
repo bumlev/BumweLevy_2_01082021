@@ -140,16 +140,11 @@
         flex:2;
     }
 
-    .populaire h2
+    #chart-line
     {
-        margin-left:25px;
+        position: absolute;
+        margin-left: 68%;
     }
-
-    .populaire i
-    {
-        margin-left: 490px;
-    }
-
 
     /* -----------------ACTIVITIES-------------------------*/
 
@@ -467,7 +462,7 @@
         display: flex;
         width: auto;
         height: auto;
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-content: center;
         justify-content: center;
 
@@ -582,8 +577,7 @@
     #chart-line
     {
         position: absolute;
-        margin-left: 62%;
-
+        margin-left: 91%;
     }
 
     .art1_pop , .art2_pop , .art3_pop
@@ -665,7 +659,7 @@
         display: flex;
         flex-direction: column;
         margin-top: 30px;
-        margin-bottom: -40%;
+        margin-bottom: -50%;
     }
 
     .sect_activites h2
@@ -699,7 +693,7 @@
 
     .activity_3
     {
-        margin-top: -22%;
+        margin-top: -210px;
     }
 
     .img1_act1
@@ -842,7 +836,7 @@
     {
         width: auto;
         background-color: #f2f2f2;
-        margin-top: 17%;
+        margin-top: 31%;
     }
     .renseignement
     {
@@ -856,11 +850,11 @@
     {
         display: flex;
         flex-direction: column;
-        width: 180px;
+        width: auto;
         height: auto;
         margin-left: 2%;
         margin-right:5%;
-        margin-bottom: auto;
+        margin-bottom: 3%;
     }
 
 
@@ -935,9 +929,6 @@
         flex-direction: row;
         position: absolute;
         margin-top: 80px;
-        margin-left: 20%;
-        margin-right: 20%;
-
     }
 
     nav a:first-child
@@ -1134,10 +1125,10 @@
         margin-right: 1%;
     }
 
-    .populaire h2
+    #chart-line
     {
-        display: flex;
-        flex-direction: row;
+        position: absolute;
+        margin-left: 71%;
     }
 
 
@@ -1495,7 +1486,7 @@
     }
     .tête
     {
-        width: 95%;
+        width: 98%;
         height: auto;
         display: flex;
         flex-direction: row;
@@ -1508,7 +1499,7 @@
 
     .reservation
     {
-        width: 95%;
+        width: 98%;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -1532,12 +1523,13 @@
 
     nav
     {
+        width: auto;
         display: flex;
         flex-direction: row;
         position: absolute;
         margin-top: 80px;
-        margin-left: 5%;
-        margin-right: 40%;
+        margin-left: auto;
+        margin-right: auto;
 
     }
 
@@ -1559,7 +1551,7 @@
         padding: 38px;
         color: black;
         margin-right: auto;
-        margin-left: auto;
+        margin-left: 2%;
     }
 
 
@@ -1738,15 +1730,10 @@
         margin-right: 1%;
     }
 
-    .populaire h2
-    {
-        display: flex;
-        flex-direction: row;
-    }
     #chart-line
     {
         position: absolute;
-        margin-left: 74%;
+        margin-left: 82%;
     }
 
     .art1_pop , .art2_pop , .art3_pop
@@ -1782,7 +1769,7 @@
         display: flex;
         flex-direction: column;
         margin-top: 5%;
-        margin-bottom: 15%;
+        margin-bottom: 25%;
 
     }
 
@@ -1968,7 +1955,7 @@
     {
         width: auto;
         background-color: #f2f2f2;
-        margin-top: 7%;
+        margin-top: 17%;
     }
     .renseignement
     {
