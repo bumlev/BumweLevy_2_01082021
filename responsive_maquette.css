@@ -1,8 +1,4 @@
 /**** -------------------- RESPONSIVE DESIGN -----------------*/
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
-
-
-
 
 @media  screen and (min-width: 1025px) and (max-width: 1281px)
 {
@@ -368,7 +364,6 @@
 
 }
 
-
 @media  screen and (min-width: 768px) and (max-width: 1024px)
 {
 
@@ -517,7 +512,7 @@
         margin-bottom: 10px;
         margin-left: 0px;
         margin-right: 0px;
-        background-color: white;
+        background-color: whitesmoke;
         box-shadow: 0 0 16px #0000002e;
     }
 
@@ -577,18 +572,18 @@
     #chart-line
     {
         position: absolute;
-        margin-left: 91%;
+        margin-left: 86%;
     }
 
     .art1_pop , .art2_pop , .art3_pop
     {
         display: flex;
-        width: 96%;
+        width: 85%;
         height: auto;
         margin-top: 12px;
         margin-bottom: 12px;
-        margin-left: 2%;
-        margin-right: 2%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 
@@ -600,7 +595,7 @@
     {
         display: flex;
         flex-direction: row;
-        width: 98%;
+        width: 100%;
         height: auto;
         border-radius: 15px;
         text-decoration: none;
@@ -875,7 +870,6 @@
 
 }
 
-
 @media screen and (min-width: 481px) and (max-width: 767px)
 {
 
@@ -925,10 +919,13 @@
 
     nav
     {
+        width: 98%;
         display: flex;
         flex-direction: row;
         position: absolute;
         margin-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     nav a:first-child
@@ -1136,7 +1133,7 @@
     {
         display: flex;
         width: auto;
-        height: 118px;
+        height: auto;
         margin-top: 5%;
         margin-bottom: 5%;
         margin-left: auto;
@@ -1428,7 +1425,6 @@
     }
 
 
-
     /******** -----------------------------------------   PIED DE LA PAGE ---------------------------------------------*/
 
 
@@ -1523,14 +1519,13 @@
 
     nav
     {
-        width: auto;
+        width: 98%;
         display: flex;
         flex-direction: row;
         position: absolute;
         margin-top: 80px;
         margin-left: auto;
         margin-right: auto;
-
     }
 
     nav a:first-child
@@ -1551,7 +1546,7 @@
         padding: 38px;
         color: black;
         margin-right: auto;
-        margin-left: 2%;
+        margin-left: auto;
     }
 
 
@@ -1596,9 +1591,6 @@
     {
         width: 70%;
     }
-
-
-
 
     /*** --------------- info logement --------------------------------*/
     .info_logement
@@ -1672,7 +1664,7 @@
         margin-bottom: 6%;
         margin-left: auto;
         margin-right: auto;
-        background-color: white;
+        background-color: whitesmoke;
         box-shadow: 0 0 16px #0000002e;
     }
 
@@ -1733,7 +1725,7 @@
     #chart-line
     {
         position: absolute;
-        margin-left: 82%;
+        margin-left: 84%;
     }
 
     .art1_pop , .art2_pop , .art3_pop
@@ -1746,6 +1738,15 @@
         margin-left: auto;
         margin-right: auto;
     }
+
+    .a_art1_pop , .a_art2_pop , .a_art3_pop
+    {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+
     .a_art1_pop div:last-child i , .a_art3_pop div:last-child i
     {
         color: #0065FC;

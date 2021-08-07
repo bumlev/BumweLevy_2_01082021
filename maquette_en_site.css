@@ -13,7 +13,6 @@ body
 
 
 /* --------------------   ENTETE  -------------------*/
-
 .tête
 {
     width: 1250px;
@@ -148,11 +147,6 @@ span i
     align-items: center;
 }
 
-.econo_fami_resp
-{
-    display: none;
-}
-
 .economique , .familial , .romantique , .animaux
 {
     display: flex;
@@ -284,7 +278,7 @@ span i
     border:1px solid white;
     height: 200px;
     border-radius: 15px;
-    background-color: white;
+    background-color: whitesmoke;
     box-shadow: 0 0 16px #0000002e;
 }
 
