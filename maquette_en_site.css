@@ -275,10 +275,10 @@ span i
 .hebergement_1 article , .hebergement_2 article
 {
     width: 220px;
-    border:1px solid white;
+    border:1px solid transparent;
     height: 200px;
     border-radius: 15px;
-    background-color: whitesmoke;
+    background-color:white;
     box-shadow: 0 0 16px #0000002e;
 }
 
