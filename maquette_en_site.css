@@ -235,7 +235,7 @@ span i
 
 }
 
-.hebergement_article
+.hebergement_div
 {
     flex: 2;
     display: flex;
@@ -253,7 +253,7 @@ span i
     align-items: center;
     margin-bottom: -30px;
 }
-.hebergement_article h2
+.hebergement_div h2
 {
     margin-left: 30px;
 }
@@ -336,7 +336,7 @@ span i
     text-decoration: none;
 }
 
-.hebergement_article h4
+.hebergement_div h4
 {
     margin-left: 20px;
     margin-bottom: 20px;
