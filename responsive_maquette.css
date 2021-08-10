@@ -500,7 +500,8 @@
         height: auto;
         justify-content: space-between;
         align-items: center;
-
+        margin-left: 3%;
+        margin-right: auto;
     }
 
     .hebergement_1 article, .hebergement_2 article {

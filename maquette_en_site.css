@@ -11,7 +11,6 @@ body
     font-weight: 500;
 }
 
-
 /* --------------------   ENTETE  -------------------*/
 .tête
 {
@@ -24,31 +23,6 @@ body
     margin-right: auto;
 }
 
-.reservation
-{
-    display: flex;
-    flex-direction: column;
-    width: 1250px;
-    height: auto;
-    margin-top: -35px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.logo
-{
-    width: 87px;
-    height: 45px;
-    margin-top: -17px;
-}
-
-.localisation p
-{
-    font-size: 1.1em;
-    margin-top: -10px;
-    font-family: "Raleway", "sans-serif" ;
-    font-weight:400
-}
 nav
 {
     width: 480px;
@@ -84,6 +58,33 @@ nav a:hover
     color: #0065FC;
     font-weight: bold;
 }
+
+.reservation
+{
+    display: flex;
+    flex-direction: column;
+    width: 1250px;
+    height: auto;
+    margin-top: -35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo
+{
+    width: 87px;
+    height: 45px;
+    margin-top: -17px;
+}
+
+.localisation p
+{
+    font-size: 1.1em;
+    margin-top: -10px;
+    font-family: "Raleway", "sans-serif" ;
+    font-weight:400
+}
+
 
 
 /* -----------------  fORM RESEARCH  ---------------------*/
