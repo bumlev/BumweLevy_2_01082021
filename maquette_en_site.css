@@ -91,10 +91,11 @@ nav a:hover
 
 .formsearch
 {
+    width: 390px;
     display: flex;
 }
 
-.formsearch span
+.formsearch .map
 {
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
@@ -104,7 +105,7 @@ nav a:hover
     text-align: center;
 }
 
-span i
+.map i
 {
     margin-top: 15px;
 }
@@ -130,6 +131,11 @@ span i
     font-size:1.1em;
     font-weight: bold;
     cursor: pointer;
+}
+
+.formsearch button i 
+{
+    display: none;
 }
 
 /* ------------------------    LES FILTRES --------------------*/

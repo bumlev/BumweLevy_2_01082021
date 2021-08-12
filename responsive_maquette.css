@@ -883,7 +883,7 @@
     }
     .tête
     {
-        width: 95%;
+        width: 90%;
         height: auto;
         display: flex;
         flex-direction: row;
@@ -896,7 +896,7 @@
 
     .reservation
     {
-        width: 95%;
+        width: 90%;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -920,7 +920,7 @@
 
     nav
     {
-        width: 98%;
+        width: 90%;
         display: flex;
         flex-direction: row;
         position: absolute;
@@ -1105,6 +1105,11 @@
     .img3_heb2
     {
         width: 102%;
+    }
+
+    .icon1_heb1 , .icon2_heb1 , .icon3_heb1 , .icon1_heb2 , .icon2_heb2 , .icon3_heb2
+    {
+       margin-bottom: 5%;
     }
 
     /*--------------------------------------     POPULAIRE -------------------------------*/
@@ -1483,7 +1488,7 @@
     }
     .tête
     {
-        width: 98%;
+        width: 88%;
         height: auto;
         display: flex;
         flex-direction: row;
@@ -1496,7 +1501,7 @@
 
     .reservation
     {
-        width: 98%;
+        width: 88%;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -1520,7 +1525,7 @@
 
     nav
     {
-        width: 98%;
+        width: 88%;
         display: flex;
         flex-direction: row;
         position: absolute;
@@ -1557,7 +1562,26 @@
     {
         display: flex;
         flex-direction: row;
-        width: 100%;
+        width: 95%;
+    }
+
+    .formsearch button
+    {
+        width: 20%;
+    }
+
+    .formsearch span 
+    {
+        width: 30%;
+    }
+    .formsearch button i 
+    {
+        display: inline;
+    }
+
+    .formsearch button span
+    {
+        display: none;
     }
 
 
@@ -1574,23 +1598,26 @@
     .familial , .economique
     {
         position: absolute;
-        margin-top: 8%;
+        margin-top: 15%;
         margin-bottom: 40%;
+        margin-left: 0;
     }
 
     .romantique
     {
         width: 60%;
-        margin-top: 15%;
+        margin-top: 20%;
+        margin-left: 0;
     }
 
     .familial
     {
-        margin-left: 56%;
+        margin-left: 48.6%;
     }
     .animaux
     {
-        width: 70%;
+        width: 69%;
+        margin-left:0;
     }
 
     /*** --------------- info logement --------------------------------*/
@@ -1601,6 +1628,11 @@
         height: auto;
         margin-top: 30px;
         margin-bottom: 30px;
+    }
+
+    .info_logement div
+    {
+        width: 12.3%;
     }
     /*----------------------------------    HEBERGEMENT ---------------------------------------------------------*/
     .sect_hebergement
@@ -1631,7 +1663,7 @@
 
     .hebergement_div h2
     {
-        margin-left: 10%;
+        margin-left: 5%;
     }
 
     .hebergement_div h4
@@ -1644,7 +1676,7 @@
     {
         display: flex;
         flex-direction: column;
-        width: 87%;
+        width: 91%;
         height: auto;
         justify-content: space-between;
         align-items: center;
@@ -1707,6 +1739,11 @@
         width: 102%;
     }
 
+    .icon1_heb1 , .icon2_heb1 , .icon3_heb1 , .icon1_heb2 , .icon2_heb2 , .icon3_heb2
+    {
+       margin-bottom: 5%;
+    }
+
     /*--------------------------------------     POPULAIRE -------------------------------*/
 
     .populaire
@@ -1726,13 +1763,13 @@
     #chart-line
     {
         position: absolute;
-        margin-left: 84%;
+        margin-left: 77%;
     }
 
     .art1_pop , .art2_pop , .art3_pop
     {
         display: flex;
-        width: 84%;
+        width: 90%;
         height: auto;
         margin-top: 5%;
         margin-bottom: 5%;
@@ -1803,7 +1840,7 @@
     .activity_1 , .activity_3
     {
         display: flex;
-        width: 96%;
+        width: 97%;
         height: 200px;
         flex-direction: column;
         justify-content: space-between;
@@ -1838,7 +1875,7 @@
 
     .activity_2 , .activity_4
     {
-        width: 96%;
+        width: 98%;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -1974,7 +2011,7 @@
         width: 70%;
         height: auto;
         margin-bottom: auto;
-        margin-left: 8%;
+        margin-left: 12%;
         justify-content: flex-start;
     }
 
