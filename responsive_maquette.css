@@ -883,7 +883,7 @@
     }
     .tête
     {
-        width: 90%;
+        width: 80%;
         height: auto;
         display: flex;
         flex-direction: row;
@@ -896,7 +896,7 @@
 
     .reservation
     {
-        width: 90%;
+        width: 80%;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -920,11 +920,11 @@
 
     nav
     {
-        width: 90%;
+        width: 80%;
         display: flex;
         flex-direction: row;
         position: absolute;
-        margin-top: 80px;
+        margin-top: 110px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -1131,7 +1131,7 @@
     #chart-line
     {
         position: absolute;
-        margin-left: 71%;
+        margin-left: 65%;
     }
 
 
@@ -1455,7 +1455,7 @@
         width: auto;
         height: auto;
         margin-bottom: auto;
-        margin-left: 8%;
+        margin-left: 15%;
         justify-content: flex-start;
     }
 
